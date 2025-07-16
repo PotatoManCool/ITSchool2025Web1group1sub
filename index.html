@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Тест Климова</title>
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
+    <header>
+        <h1>Тест Климова на профориентацию</h1>
+        <p>Определите свои профессиональные склонности</p>
+    </header>
     
+    <div class="description">
+        <p>Ответьте на вопросы, выбирая наиболее предпочтительный вариант.</p>
+    </div>
+    
+    <div class="test-container">
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        <div class="progress-text" id="progress-text">Вопрос 1 из 5</div>
+        
+        <div id="questions-container"></div>
+        
+        <button id="submit-btn" disabled>Получить результаты</button>
+    </div>
+    
+    <div class="results" id="results">
+        <h2>Ваши результаты</h2>
+        <div id="results-content"></div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
